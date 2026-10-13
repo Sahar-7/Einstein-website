@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#b08d57"/>
+    </marker>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#1f2a44"/>
+    </marker>
+  </defs>
+  <rect width="600" height="800" fill="#f5eee2"/>
+  <text x="300" y="110" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" fill="#2b2b2e">E = hν</text>
+  <g fill="none" stroke="#b08d57" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M80 200q15-15 30 0t30 0 30 0 30 0 30 0 30 0l50 220"/>
+    <path d="M170 170q15-15 30 0t30 0 30 0 30 0 30 0l40 250"/>
+    <path d="M300 180q15-15 30 0t30 0 30 0l-40 240"/>
+  </g>
+  <rect x="60" y="470" width="480" height="150" rx="8" fill="#5d5a55"/>
+  <text x="300" y="565" text-anchor="middle" font-family="Times New Roman, serif" font-size="30" fill="#f5eee2">metal surface</text>
+  <g stroke="#1f2a44" stroke-width="5" marker-end="url(#arrow2)">
+    <line x1="330" y1="460" x2="440" y2="330"/>
+    <line x1="370" y1="460" x2="520" y2="400"/>
+  </g>
+  <g fill="#1f2a44">
+    <circle cx="452" cy="316" r="14"/>
+    <circle cx="536" cy="394" r="14"/>
+  </g>
+  <text x="300" y="700" text-anchor="middle" font-family="Times New Roman, serif" font-size="26" fill="#2b2b2e">Light quanta knock electrons free</text>
+</svg>
